@@ -1,3 +1,3 @@
-# jaronrubenstein/molecule
+# jaronrubenstein/docker-molecule
 
-Dockerized CentOS with Ansible and the Molecule test package installed.
+Dockerized Docker (docker-in-docker) with Ansible and the Molecule test package installed.

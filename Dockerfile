@@ -9,7 +9,8 @@ RUN apk add --update \
     py-pip \
     build-base \
     libffi-dev \
-    openssl-dev && \
+    openssl-dev \ 
+    linux-headers && \
     pip install -U setuptools && \
     pip install ansible && \
     pip install docker-py && \

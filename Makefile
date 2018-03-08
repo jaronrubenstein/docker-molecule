@@ -1,6 +1,6 @@
 # Makefile
 
-PROJECT=centos-ansible
+PROJECT=molecule
 CONTAINER=$(PROJECT)
 
 build: Dockerfile
