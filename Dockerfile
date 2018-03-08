@@ -8,9 +8,8 @@ RUN apk add --update \
     python-dev \
     py-pip \
     build-base \
-    libffi
-    libffi-dev 
-    libssl-dev && \
+    libffi-dev \
+    openssl-dev && \
     pip install -U setuptools && \
     pip install ansible && \
     pip install docker-py && \
