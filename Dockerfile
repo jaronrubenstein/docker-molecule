@@ -13,6 +13,6 @@ RUN apk add --update \
     linux-headers && \
     pip install --upgrade pip && \
     pip install -U setuptools && \
-    pip install ansible && \
+    pip install ansible==2.4 && \
     pip install docker-py && \
     pip install molecule
