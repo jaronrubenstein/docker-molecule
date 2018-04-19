@@ -11,7 +11,8 @@ RUN apk add --update \
     libffi-dev \
     openssl-dev \ 
     linux-headers && \
+    pip install --upgrade pip && \
     pip install -U setuptools && \
-    pip install ansible && \
+    pip install ansible==2.5.1 && \
     pip install docker-py && \
     pip install molecule
