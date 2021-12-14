@@ -4,8 +4,8 @@ LABEL MAINTAINER "jaron@rubensteintech.com"
 # base image is based on Alpine Linux
 # install pre-requisites, Ansible, and testing setup
 RUN apk add --update \
-    python \
-    python-dev \
+    python3 \
+    python3-dev \
     py-pip \
     build-base \
     libffi-dev \
